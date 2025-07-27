@@ -1,0 +1,353 @@
+*{
+
+    font-family: 'popppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px 120px;
+    z-index: 999;
+    position: fixed;
+
+
+}
+.logo{
+text-decoration: none;
+font-weight: 700;
+    font-size: 1.8em;
+ color: #3468f6;
+    text-transform: uppercase;
+}
+.navitation{
+    color: #3468f6;
+    font-size: 1.2em;
+       
+}
+.navitation a{
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 400px;
+}
+.navitation a:hover{
+    color: #601cfc;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+     /* background: url(https://i.postimg.cc/BQ79Xhtw/cd.jpg) no-repeat; */
+     /* background: url(https://wallpaperaccess.com/full/4230797.jpg) no-repeat; */
+     background: url(https://wallpapercave.com/wp/wp3416319.jpg)no-repeat;
+     
+
+
+
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+.main h2{
+color: white;
+font-size: 1.8em;
+font-weight: 600;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #3a6cf4;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+.mainputton{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    font-weight: 600;
+   padding: 0.9375em 2.1875em;
+   
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+
+}
+.mainputton:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content{
+    display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icons{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px; 
+
+}
+.Project{
+    background-color: #080808f5;
+}
+.Project .content{
+    margin-top: 30px;
+
+}
+.projectcard{
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    max-height: 30em;
+    width: 23em;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    transition: 0.7s ease;
+    justify-content: center;
+  margin-left: 150px;
+  
+  
+  margin-bottom: 20px;
+
+}
+.projectcard:hover{
+    transform: scale(1.1);
+}
+.projectcard:hover .projectsimg{
+    opacity: 0.9;
+}
+.projectsimg img{
+    width: 100%;
+   
+   
+}
+.Projectinfo{
+    padding: 1em;
+}
+.projectcategory {
+    font-size: 0.8em;
+    color: #000;
+}
+.projecttitle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+
+    
+}
+.moredetails{
+    text-decoration: none;
+    color: #3a6cf4;
+}
+.moredetails:hover{
+    color: #601cfc;
+}
+.Contact .icons{
+    font-size: 4.5em;
+}
+.Contact .info h3{
+    color: #000;
+}
+.Contact .info p{
+    font-size: 1.5em;
+}
+.foter{
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between
+    ;
+    
+}
+.socialicons i{
+color: #fff;
+/* display: inline-block; */
+margin-left: 10px;
+
+
+}
+.footertitle{
+    font-size: 1.3em;
+    font-weight: 600;
+
+}
+.footertitle span{
+    color: #3a6cf4;
+}
+/* < */
+/* < */
+.service-message {
+    
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+  
+    background-color: #3a6cf4;;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/* @media(max-width:1023px){
+
+header{
+    padding: 12px 20px;
+}
+.navitation a
+{
+    padding-left: 10px;
+
+}
+.title{
+  font-size: 1.8em;
+}
+section{
+    padding: 80px 20px;
+
+}
+.main-content h2{
+    font-size: 1em;
+}
+.main-content h3{
+    font-size: 1.6em;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+       
+    }
+    .main-content h2{
+        font-size: 0.8em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px) {
+body{
+    font-size: 10px;
+}
+
+    
+} */
+@media(max-width:400px){
+    header{
+        font-size: 0.11rem;
+       padding-top: 2px;
+       /* padding-bottom: 2px; */
+       padding-left: 2px;
+       padding-right: 2px;
+    }
+    .navitation{
+        font-size: 1em;
+       
+    }
+    .navitation a{
+padding-left: 2px;
+padding-right: 2px;
+        font-size: 1.2rem; 
+        font-weight: 0.7rem;
+        
+
+    }
+    .logo{
+        
+       font-weight: 0.2rem;
+    font-size: 0.9rem; 
+    }
+    section{
+    padding: 5px 1px;
+    }
+    .main{
+        min-height: 100vh;
+    }
+    .main h2{
+
+font-size: 1.1em;
+font-weight: 100;
+}
+.projectcard{
+   
+    min-height: 14em;
+    max-height: 30em;
+    width: 23em;
+    /* overflow: hidden; */
+    border-radius: 10px;
+    transition: 0.7s ease;
+    justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  
+  margin-bottom: 20px;
+
+}
+}
